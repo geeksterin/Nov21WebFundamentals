@@ -16,6 +16,7 @@
     - Block
     - *Difference Between Display Block and Display Inline.*
     - None
+- Box Model
 - ***Create a simple Login Page***
 - Input Attributes:
     - Minlength / Maxlength
@@ -25,11 +26,13 @@
 ## Resources
 - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 - https://www.google.com/search?q=RGB+to+HEX
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
 - https://developer.mozilla.org/en-US/docs/Web/CSS/display
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
     - https://www.youtube.com/watch?v=sXQxhojSdZM
