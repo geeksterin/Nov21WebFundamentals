@@ -1,0 +1,44 @@
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.big-text {
+    font-size: 150%;
+}
+
+.small-text {
+    font-size: 70%;
+}
+
+.light-text {
+    font-weight: 100; /* 100 to 900 */
+}
+
+.capital-text {
+    text-transform: uppercase;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.inline {
+    display: inline;
+}
+
+.green-text {
+    /* color: green; */
+    /* color: rgb(100, 200, 200); */
+    /* 00 (0) -> FF (255) */
+    color: #00FF00;
+    /* color: rgba(100, 200, 200, 1); */
+}
+
+button {
+    margin: 20px;
+    padding: 20px;
+}
