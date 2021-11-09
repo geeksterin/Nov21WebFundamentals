@@ -49,3 +49,6 @@
     - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
 - Extension used - https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools
 - Top Banner Image Slider - https://www.youtube.com/watch?v=pGHOaY4dhAA
+
+---
+> *"In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them.”*- Andrew Hunt
