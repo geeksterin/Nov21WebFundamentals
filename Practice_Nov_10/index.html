@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        abcd@gmail.com ✔
+        a.b.c.d@gmail.com ✔
+        aayush123@gmail.com ✔
+        xyz@geekster.in ✔
+        a@a.a ✔
+
+        [anything] @ [anything] . [anything]
+
+        . <- Any character is allowed (but only once)!
+        a ✔
+        0 ✔
+        ab ❌
+        abcd ❌
+
+        ()+ <- Whatever the previous character is, it should be once or more than once.
+        
+        a+ <- a can occur once or more than once.
+        a ✔
+        aa ✔
+        aaaaaa ✔
+        ab ❌
+
+
+        .+ <- Any character can occur once or more than once.
+        a ✔
+        abcd ✔
+        aaaa ✔
+        ❌
+
+        [anything] @ [anything] . [anything] <- English explaination
+            .+     @     .+    \.     .+
+
+        .+@.+\..+ <- Final Regex
+
+        xyz@geekster ❌
+        xyx ❌
+        xyz.geekster.in ❌         
+    -->
+    <form>
+        <input type="text" placeholder="Enter Email format" pattern=".+@.+\..+" title="Enter in format abcd@email.com" required />
+        <button type="submit">Submit</button>
+        <br />
+        <br />
+        <textarea placeholder="Enter your Address." rows="10" cols="40"></textarea>
+        <br />
+        <br />
+        <input type="radio" name="abcd" /> Option 1
+        <br />
+        <input type="radio" name="abcd" /> Option 2
+        <br />
+        <input type="radio" name="abcd" /> Option 3
+        <br />
+        <input type="radio" name="abcd" /> Option 4
+        <br />
+        <br />
+        <input type="radio" name="kkkk" /> New Option 1
+        <br />
+        <input type="radio" name="kkkk" /> New Option 2
+        <br />
+        <input type="radio" name="kkkk" /> New Option 3
+        <br />
+        <input type="radio" name="kkkk" /> New Option 4
+    </form>
+</body>
+</html>
