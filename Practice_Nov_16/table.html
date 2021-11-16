@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .light {
+            background-color: #f2f2fc;
+        }
+        .dark {
+            background-color: #cfcffa;
+        } */
+        /* tr:nth-child(odd) {
+            background-color: #f2f2fc;
+        }
+        tr:nth-child(even) {
+            background-color: #cfcffa;
+        } */
+
+        /* n starts from 0 */
+        /* tr:nth-child(5) {
+            background-color: #fca7be;
+        } */
+        /* tr:nth-child(n+6) {
+            background-color: #fca7be;
+        } */
+        tr:nth-child(3n) { /*0, 3, 6, 9, 12 */
+            background-color: #fca7be;
+        }
+        tr:nth-child(3n + 1) { /*1, 4, 7, 10, 13 */
+            background-color: #c4ffce;
+        }
+        tr:nth-child(3n + 2) { /*2, 5, 8, 11, 14 */
+            background-color: #c4e1ff;
+        }
+
+        /* Same as 👇🏻 */
+        /* tr:nth-child(1) {
+            background-color: #fca7be;
+        }
+        tr:nth-child(2) {
+            background-color: #fca7be;
+        }
+        tr:nth-child(3) {
+            background-color: #fca7be;
+        }
+        tr:nth-child(4) {
+            background-color: #fca7be;
+        }
+        tr:nth-child(5) {
+            background-color: #fca7be;
+        }
+        tr:nth-child(6) {
+            background-color: #fca7be;
+        } */
+        /*n -> 0, 1, 2, 3, 4, 5, 6, 7, 9, 10 */
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+            <tr class="light">
+                <td>Table Item</td>
+            </tr>
+            <tr class="dark">
+                <td>Table Item</td>
+            </tr>
+            <tr class="light">
+                <td>Table Item</td>
+            </tr>
+            <tr class="dark">
+                <td>Table Item</td>
+            </tr>
+            <tr class="light">
+                <td>Table Item</td>
+            </tr>
+            <tr class="dark">
+                <td>Table Item</td>
+            </tr>
+            <tr class="light">
+                <td>Table Item</td>
+            </tr>
+            <tr class="dark">
+                <td>Table Item</td>
+            </tr>
+            <tr class="light">
+                <td>Table Item</td>
+            </tr>
+            <tr class="dark">
+                <td>Table Item</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-color: #e8f1fa;
+}
+
+.dropdown {
+    display: none;
+    /* background-color: green; */
+}
+
+.wrapper:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+}
+

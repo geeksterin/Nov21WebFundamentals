@@ -1,0 +1,53 @@
+/* Type Selector */
+li {
+    color: #FF0000;
+}
+
+/* ID selector */
+#special {
+    color: #00FF00;
+}
+
+/* Class Selector */
+.blue-text {
+    color: #0000FF;
+}
+
+/* Universal Selector */
+* {
+    color: #333333;
+}
+
+/* Pseudo Class */
+li:hover {
+    color: #db8514;
+}
+.blue-text:hover {
+    color: #00e5ff;
+}
+
+li:last-child {
+    color: #ff9100;
+}
+li:first-child {
+    color: #ea00ff;
+}
+
+/* Pseudo Element */
+
+
+
+
+/* AND -> nothing special */
+/* #special.special-text {
+    text-transform: uppercase;
+} */
+
+/*
+.blue-text.special-text {
+    text-transform: uppercase;
+} */
+/* OR -> Comma , */
+/* .blue-text,.special-text {
+    text-transform: uppercase;
+} */
