@@ -1,0 +1,109 @@
+/* Pseudo Elements */
+/* li::first-letter {
+    color: #eb4034;
+} */
+
+/* Pseudo Class */
+/* li:first-child {
+    color: greenyellow;
+}
+
+li::before {
+    content: 'a ';
+    background-color: indigo;
+}
+
+li::after {
+    content: ' end';
+    background-color: lawngreen;
+} */
+
+/* Pseudo element */
+/* p::first-line {
+    color: #a8eb34;
+} */
+
+/* button:active ~ p::before {
+    content: 'abcd';
+} */
+
+/* p:hover {
+    color: red;
+} */
+
+/* Combinators */
+/* Angular Bracket */
+/* Only 1 generation down, that is direct child */
+/* .parent > .child {
+    color: #d65869;
+} */
+
+
+/* SPACE */
+/* .parent  > .middle_parent > .child {
+    color: #84d185;
+} */
+
+
+/* Sibling Combinator */
+/* .special-child ~ li {
+    color: #e83c3c;
+}
+
+
+.special-child + li {
+    color: #49f71e;
+} */
+
+/* Attribute Selectors */
+/* li[key="value"] {
+    color: #1e49f7;
+} */
+
+/* li[key] {
+    color: #1e49f7;
+} */
+
+/*
+key has value which consists a string example
+key="example1" ✔
+key="111example11111" ✔
+key="ex111ample" ❌
+*/
+
+
+
+
+/* What is an attribute? */
+
+/* [attr_name="attr_value"] {
+    color: #3b30ff;
+} */
+
+/* li[attr_name] {
+    color: #3b30ff;
+} */
+
+
+
+
+/* STAR(*), DOLLAR($), TILDE(~) */
+
+/* #special {
+
+} */
+
+/* li[id="special"] {
+    color: #ff3030;
+}
+
+
+
+/* [key="value"] */
+/*[attr_name="attr_value"] {
+    color: greenyellow;
+} */
+
+input[type="password"] {
+    border-radius: 30px;
+}
