@@ -1,0 +1,33 @@
+/* .not-flex {
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 10%;
+} */
+
+.flex-container {
+    display: flex;
+    /*
+    justify-content: left; 
+    justify-content: right;
+    justify-content: center;
+    */
+    justify-content: space-around;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-element {
+    width: 100px;
+    height: 100px;
+    background-color: #deb554;
+    border: 2px solid black;
+}

@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 20px;
+    /* column-gap: 20px; */
+    /* row-gap: 40px; */
+}
+
+.flex-element {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #7bff29;
+    background-color: #85d6ff;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.green-background:hover {
+    background-color: greenyellow;
+    /* transform: scale(1.5); */
+}
+
+.red-background {
+    background-color: red;
+}
+
+.black-background {
+    background-color: black;
+}
