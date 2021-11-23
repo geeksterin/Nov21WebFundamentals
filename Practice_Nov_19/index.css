@@ -1,0 +1,22 @@
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color: #eb9696;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.navigation > h4 {
+    display: inline;
+}
+.whatsapp {
+    width: 30px;
+    height: 30px;
+    background-color: #4FCE5D;
+    border-radius: 50%;
+    position: fixed;
+    /* top / left / bottom / right */
+    bottom: 30px;
+    right: 20px;
+    padding: 3px
+}
