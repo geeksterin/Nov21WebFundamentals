@@ -1,0 +1,27 @@
+.nav-bar-top {
+    position: fixed;
+    width: 100%;
+    background-color: #f7f1b0;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    background-color: #b0ebf7;
+    height: 40px;
+    top: 40px;
+    left: 0px;
+}
+h5 {
+    margin: 0px;
+}
+body {
+    margin: 0px;
+}
+
+/* p:first-of-type {
+    margin-top: 40px;
+} */
