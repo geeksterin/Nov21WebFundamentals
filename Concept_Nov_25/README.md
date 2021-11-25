@@ -42,19 +42,31 @@ fn_name(argument);
 ## Resources
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-- 
+- https://developer.mozilla.org/en-US/docs/Glossary/Parameter
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+- https://developer.mozilla.org/en-US/docs/Glossary/Mutable
+- https://developer.mozilla.org/en-US/docs/Glossary/Immutable
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
 
 ## Assignment
 1. Complete the Todo List application. Add the remaining functionalities:
-    - To be able to mark any item as done. When marked as done, the check icon (`✔`) can be appended to the todo list item.
+    - To be able to mark any item as done. When marked as done, the check icon (`✔`) can be appended to the todo list item text.
     - To be able to edit any item.
     - To be able to delete any item from my todo list. 
         - Hint: Look into array splice method.
 
 ### Further Interest
-- Inheritance in JS -> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
-- Array map() -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-- Array splice -> 
+- Inheritance in JS https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
+- Array map() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+- Array splice https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
 ---
 
