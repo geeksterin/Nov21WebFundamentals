@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Pattern Example</h3>
+    <script>
+        /*
+1-> *
+2-> **
+3-> ***
+4-> ****
+5-> *****
+6-> ******
+7-> *******
+...
+num
+        */
+    // var num = prompt("Enter the number");
+    // // console.log(num);
+    // //Outer loop
+    // //The number of lines I want to print
+    // for(var i = 1; i <= num; i = i + 1) {
+    //     var stars = "";
+    //     //Inner Loop
+    //     //The number of star in each line I want
+    //     for(var j = 1; j <= i; j = j + 1) {
+    //         stars = stars + "* "; //Concatenation of strings.
+    //     }
+    //     console.log(stars);
+    //     // console.log(i);
+    // }
+
+    var n = prompt("Enter the number");
+    for(var i = 1; i <= n; i = i + 1) {
+       //i is the line number. (The number of stars = i)
+
+       /*
+        If i = 5 ->  *****
+        if i = 7 ->  *******
+        If i = 10 -> **********
+       */
+        var stars = "";
+        for(var j = 1; j <= i; j = j + 1) {
+            stars = stars + "*";
+        }
+        console.log(stars);
+    }
+
+     /*
+    //     If i = 5 ->  *****
+    //     if i = 7 ->  *******
+    //     If i = 10 -> **********
+    //    */
+    // var i = prompt("Enter the number of stars");
+    // var stars = "";
+    // for(var j = 1; j <= i; j = j + 1) {
+    //     stars = stars + "*";
+    // }
+    // console.log(stars);
+
+    </script>
+    
+</body>
+</html>
