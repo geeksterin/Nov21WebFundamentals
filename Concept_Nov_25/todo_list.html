@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Todo List</h3>
+
+    <script>
+        //Todo List
+        //It is an array of all the items I want to to do
+        //1. I can add a new Item.
+        //2. I can get the list of all to do items
+        //3. I can mark any item as done. "Teach JS" -> "Teach JS ✔"
+        //4. I can edit any item (For example, correcting a typing mistake)
+        //5. I can delete any item from my todo list. Hint: Look into array splice method.
+
+        var todo = [];
+
+        //Functionality Number 1.
+        function add_todo_item(new_item) {
+            todo.push(new_item);
+        }
+
+        //Functionality Number 2.
+        function show_list() {
+            for(var i = 0; i < todo.length; i = i + 1) {
+                console.log(todo[i]);
+            }
+        }
+
+        
+
+    </script>
+</body>
+</html>

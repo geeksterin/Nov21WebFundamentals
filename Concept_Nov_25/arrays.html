@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Arrays</h3>
+
+    <script>
+        //How to create an Array
+        var arr = [10, "String", "Another String", false, 15.4232];
+        console.log(arr);
+
+        //How to acces an array item
+        //index of an array.
+        console.log(arr[2]);
+        // console.log("After");
+
+        //How to update
+        arr[2] = "New Another String";
+        console.log(arr[2]);
+
+        //How to get Length of a Array
+        var l = arr.length;
+        console.log(l);
+
+        //How to append to an array.
+        //Add a 6th element at the last!
+        arr.push("New Element 1", "New Element 2", 10, "SSSSSS");
+        console.log(arr);
+
+        // arr.unshift("FirstElement");
+
+        //Show all elements of the array
+        for(var i = 0; i < arr.length; i = i + 1) {
+            console.log(arr[i]);
+        }
+    </script>
+    
+</body>
+</html>

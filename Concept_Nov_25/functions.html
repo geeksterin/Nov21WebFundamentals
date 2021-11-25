@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Functions</h3>
+
+    <script>
+        //Write a function to add two numbers.
+        //Input -> 2 numbers ; Output -> Sum of those 2 numbers.
+        
+        //In round brackes, write the inputs of the function.
+        //In curly brackets, write the code you want to execute.
+        function sum(a, b) { //(a, b) <- Parameter
+            //Write the code here.
+            var sum = a + b;
+            
+            console.log("This is from inside the function");
+            
+            //return -> The output of the function
+            return sum;
+            
+            //Anything after return will never be executed!
+            console.log("After the return");
+        }
+
+
+        // Call the function / Invoke the function.
+
+        // var number1 = prompt("Enter Number 1");
+        // var number2 = prompt("Enter Number 2");
+
+        // number1 = parseInt(number1);
+        // number2 = parseInt(number2); //Converting from String to a Number
+
+        // var a = 10;
+        // var b = 25;
+
+        //Less readable
+        // console.log(parseInt(prompt("Enter number")));
+
+        //More understandable
+        // var a = prompt("Enter number");
+        // a = parseInt(a);
+        // console.log(a);
+
+        // var number1 = parseInt("10"); //Number 10
+        // var number2 = parseInt("35"); //Number 35
+
+        // var fin = sum(number1, number2); (number1, number2) <- Called as an argument.
+        // console.log(fin);
+        // console.log(sum(10, 20));
+    </script>
+</body>
+</html>
