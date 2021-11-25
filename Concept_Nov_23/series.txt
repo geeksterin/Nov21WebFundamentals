@@ -1,0 +1,9 @@
+Q. Display number 1,2,3,4,5,6... upto user input number1.
+
+Steps:
+1. Take input of number 1.
+2. Set 1 to a variable called "i"
+3. While i is less than number1
+    3.1 Output i
+    3.2 Increase the value of i by 1.
+4. Output "End of execution"

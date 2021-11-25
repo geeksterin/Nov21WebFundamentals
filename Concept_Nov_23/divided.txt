@@ -1,0 +1,13 @@
+Q. Whether number 1 can be divided by number 2 or not:
+1/2 => False || 8/4 => True || 9/3 => True || 3/0 => Undefined.
+
+Steps:
+1. Take input of number 1.
+2. Take input of number 2.
+3. Check whether number 2 is equal to 0 or not. (If true)
+    3.1 Output "Cannot divide by 0"
+4. Divide number 1 by number 2 and store the remainder in "rem" variable.
+5. If rem is equal to 0:
+    5.1 Output "Number is divisible"
+6. Otherwise (else):
+    6.1 Output "Number is not divisible"

@@ -1,0 +1,7 @@
+Q. Calculate sum of two numbers:
+
+Steps:
+1. Take input of number 1.
+2. Take input of number 2.
+3. Make addition of number 1 and number 2 and save it in sum variable.
+4. Output the sum data.
