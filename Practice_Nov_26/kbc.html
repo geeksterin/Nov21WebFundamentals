@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>KBC</h3>
+
+    <script>
+        //It's a game where we have a `list` of questions (around 15).
+
+        //What is a question in KBC?
+        //It contains a question text and a list of 4 options. Sometimes audio and vido as well.
+        //A single question is an object with many properties:
+        //  1. Question Text
+        //  2. Options
+        //  3. Correct Answer
+        //  4. Price amount
+
+        //List of 4 options.
+        //It is an array with 4 elements. That is 4 options. A single element / option is a string.
+
+        var question_list = [{
+            'text': "Which subject are we studying?",
+            'options': ["HTML", "CSS", "Javascript", "React"],
+            'correct_answer': "Javascript",
+            'price_amount': 1000
+        }];
+
+        //JavaScript Object Notation -> JSON 
+
+
+        // question_list.push(single_question);
+
+        //question_list[0];
+        //question_list[0].text;
+        //question_list[0].options[1]; -> 'CSS'
+
+        console.log(question_list);
+
+    </script>
+</body>
+</html>

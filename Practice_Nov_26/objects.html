@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Objects</h3>
+
+    <script>
+        var arr1 = ["Element 1", "Another", false, 10.5, -400];
+        var arr2 = ["Element 1", "Another", 10.5, -400, false];
+
+        // (arr1[2] == arr2[2]) -> false
+
+        var obj_123 = {
+            "key_0": "Element 1",
+            0: "Something",
+        };
+
+        var profile = {
+            'name': "Geekster Class",
+            'email': "hello@geekster.in",
+            'role': "Teacher",
+            'salary': "Secret!",
+            // 'class_stregth': obj_123.key_0,
+        };
+
+        //Access your object property.
+        var r = profile.role;
+        console.log(r);
+
+        //Update a property value.
+        profile.role = "Student";
+        console.log(profile);
+
+        //How to add a new Property (key: value)
+        profile.subject = "Javascript";
+        console.log(profile);
+
+        //Get list of all keys of an object
+        var keyz = Object.keys(profile);
+        console.log(keyz)
+
+        //Get length of an object (First, get the list of keys and then get length of keys list).
+        var len = keyz.length;
+        console.log(len);
+
+        //Get all values of an object
+        var val = Object.values(profile);
+        console.log(val);
+
+        //Show all properties of an object
+        for(var i = 0; i < val.length; i = i + 1) {
+            var str = keyz[i] + ": " + val[i];
+            console.log(str);
+        }
+
+        delete profile.subject;
+        console.log(profile);
+
+    </script>
+</body>
+</html>
