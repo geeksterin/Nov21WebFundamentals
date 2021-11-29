@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>KBC</h3>
+
+    <script>
+        //It's a game where we have a `list` of questions (around 15).
+        var kbc = {
+            'current_question_no': 0,
+            'print_question': function () { }, //This function will print the next (current+1) question on the console.
+            'select_answer': function(answer) {}, //This function will check whether the selected answer for the current question is correct or not.
+            //If correct, increment the counter (That means, move on to the next question),
+            //If incorrect. then show message saying you have lost and end the game.
+            question_list: [
+                {
+                    'text': "Which subject are we studying?",
+                    'options': ["HTML", "CSS", "Javascript", "React"],
+                    'correct_answer': "Javascript",
+                    'price_amount': 1000
+                }
+            ],
+            'winning_prize': 0, //The total amount which the player has won. //For additional score.
+        };
+
+    </script>
+</body>
+</html>

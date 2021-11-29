@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Odd/Even</h1>
+
+    <script>
+        //Sum of odd and even digits of a number.
+        var num = prompt("Enter the number");
+        num = parseInt(num);
+        var sum_of_odd = 0;
+        var sum_of_even = 0;
+
+        // for (var i=0; num.length; i ++) {
+        //     console.log(num[i]);
+        // }
+
+        while(num > 0) {
+            var digit = num % 10;
+            num = num / 10;
+            num = Math.round(num);
+            
+            // console.log(digit);
+            var remainder = digit % 2;
+
+            //Remainder is zero, then number is even
+            if(remainder == 0) {
+                sum_of_even = sum_of_even + digit;
+            } else {
+                sum_of_odd = sum_of_odd + digit;
+            }
+        }
+
+        //12034
+        console.log(sum_of_even);
+        console.log(sum_of_odd);
+
+        //Extract each digit of the number.
+        //12034 <- Get the last digit (4).
+        //Modulo by 10 -> 4
+
+        /*
+            12034
+            mod 10 -> 4
+            divide by 10 -> 1203.4 (Round to 1204, 1203)
+
+            1203
+            mod 10 -> 3
+            divide by 10 -> 120
+
+            120
+            mod 10 -> 0
+            divide by 10 -> 12
+
+            12
+            mod 10 -> 2
+            divide by 10 -> 1
+
+            1
+            mod 10 -> 1
+            divide by 10 -> 0
+            //Exit your loop
+        */
+    </script>
+</body>
+</html>

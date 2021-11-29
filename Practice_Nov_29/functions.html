@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Functions</h2>
+
+    <script>
+
+        var fn_name = function (parameter) {
+            console.log(parameter);
+            // return 1234;
+        }
+
+        var mul = function (a,b) {
+            let multi = a * b;
+            return multi;
+        }
+
+        console.log(mul(2, 8));
+
+        // fn_name('ABCD');
+        // fn_name('Another');
+        // fn_name('AAAAAAA');
+        // console.log(fn_name('aaaaa'));
+
+        var obj = {
+            'key1': 'Something',
+            'key2': 'Another thing',
+            'sum': function (a, b) {
+                var sum = a + b;
+                return sum;
+            },
+            'muliply': mul,
+        };
+        var s = obj.sum(10, 20);
+        console.log(s);
+        console.log(obj.muliply(10, 4));
+
+        /*
+        var console = {
+            'error': function() {},
+            'log': function() {},
+            'info': function() {},
+        }
+        var window; document
+        */
+
+        // console.log(obj);
+                // console.log(); 
+                // document.getElementById()
+        
+
+        //console -> Object
+        //log is a function.
+
+    </script>
+</body>
+</html>
