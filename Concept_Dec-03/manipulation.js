@@ -24,8 +24,11 @@
 // }
 
 
+let d = document.getElementById('special_div');
 
-
+// d.innerText = "Something inner content";
+// d.innerText = "<button>Dynamic Button</button>";
+d.innerHTML = "<button>Dynamic Button</button>";
 
 
 
